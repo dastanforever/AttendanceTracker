@@ -1,0 +1,1 @@
+C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.WindowsPhone\AttendancePrototype1.WindowsPhone.csproj;neutral

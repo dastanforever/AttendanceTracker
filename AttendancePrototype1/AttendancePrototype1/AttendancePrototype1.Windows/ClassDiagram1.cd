@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AttendancePrototype1.Mainfiles.Student">
+    <Position X="0.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEAAAAAAAAAAAEAACAQAAAAAAAAEQAAEAAQAIAA=</HashCode>
+      <FileName>C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Shared\MainFiles\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AttendancePrototype1.Mainfiles.Subject">
+    <Position X="4.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAIiAAAAABAQAFAACAgAAQAAAAAAABAAAAEAAAFAAA=</HashCode>
+      <FileName>C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Shared\MainFiles\Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AttendancePrototype1.Mainfiles.Period">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAIEABAAAAAQAAACAAIAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Shared\MainFiles\Period.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AttendancePrototype1.Mainfiles.TimeTable">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAEAAAAECI=</HashCode>
+      <FileName>C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Shared\MainFiles\TimeTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

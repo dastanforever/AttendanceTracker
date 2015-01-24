@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="AttendancePrototype1.EnterStudentDetails"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AttendancePrototype1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="TbName" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="41" Width="105"/>
+        <TextBox x:Name="TbNumOfSubjects" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="42" Width="105"/>
+        <TextBox x:Name="TbSchool" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="42" Width="105"/>
+        <TextBox x:Name="TbAge" Grid.Row="4" Grid.Column="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="41" Width="105"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Name" HorizontalAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Number Of Subjects" HorizontalAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="School" HorizontalAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Age" HorizontalAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='1' x:Name="ButtonSubmit" Grid.Row="5" Grid.Column="1" Content="Submit" Height="60" Margin="0,93,0,71" Width="135"                           ></Button>
+        <TextBlock HorizontalAlignment="Left" Margin="585,0,0,0" Grid.Row="5" TextWrapping="Wrap" Text="Years In School" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="TbYearInSchool" Grid.Column="1" HorizontalAlignment="Left" Margin="289,0,0,0" Grid.Row="5" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="38" Width="105"/>
+    </Grid>
+</Page>
+

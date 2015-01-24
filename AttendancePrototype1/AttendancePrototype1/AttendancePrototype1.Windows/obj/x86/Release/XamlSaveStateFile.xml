@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\thedirewolf7\documents\visual studio 2013\projects\attendanceprototype1\attendanceprototype1\attendanceprototype1.windows\obj\x86\release\intermediatexaml\attendanceprototype1.windows.exe" HashGuid="17af7030-80e0-3995-e912-541740973e1c" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\thedirewolf7\documents\visual studio 2013\projects\attendanceprototype1\packages\prism.mvvm.1.1.1\lib\windows8\microsoft.practices.prism.mvvm.dll" HashGuid="cbdd458f-3f7b-91dd-175a-6fbe0d8f860e" />
+    <ReferenceAssembly PathName="c:\users\thedirewolf7\documents\visual studio 2013\projects\attendanceprototype1\packages\prism.mvvm.1.1.1\lib\windows8\microsoft.practices.prism.mvvm.store.dll" HashGuid="347692ae-d3bb-41c8-00a0-1222d3d82e87" />
+    <ReferenceAssembly PathName="c:\users\thedirewolf7\documents\visual studio 2013\projects\attendanceprototype1\packages\prism.mvvm.1.1.1\lib\windows8\microsoft.practices.prism.sharedinterfaces.dll" HashGuid="77ddb96d-234e-bbe6-7043-530fe79bc489" />
+    <ReferenceAssembly PathName="c:\users\thedirewolf7\documents\visual studio 2013\projects\attendanceprototype1\packages\prism.storeapps.2.0.0\lib\windows8\microsoft.practices.prism.storeapps.dll" HashGuid="480782f1-e4b6-714d-0927-945a03634ad1" />
+    <ReferenceAssembly PathName="c:\users\thedirewolf7\documents\visual studio 2013\projects\attendanceprototype1\packages\prism.storeapps.2.0.0\lib\windows8\microsoft.practices.prism.storeapps.windows.dll" HashGuid="2427a039-41ae-2589-47fb-f304c758c985" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DIREWOLF7</Machine>
+    <WindowsUser>thedirewolf7</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>42574PranavSharma.TrackYourAttendance</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\obj\x86\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>A727A33B1F84F32D4875BC4C573A2F6CCC34BCAA7636CF1CB4B6F1F199616625</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>42574PranavSharma.TrackYourAttendance_1.1.0.1_x86__hst3mf90hthpy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>42574PranavSharma.TrackYourAttendance_hst3mf90hthpy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>42574PranavSharma.TrackYourAttendance</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=67A9EDB7-079C-4D17-9118-D328568AEA25</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.1</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\x86\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-01-20T04:11:53.383</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\x86\Release\AttendancePrototype1.Windows.exe">
+      <PackagePath>AttendancePrototype1.Windows.exe</PackagePath>
+      <Modified>2015-01-20T04:15:16.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\packages\Prism.Mvvm.1.1.1\lib\windows8\Microsoft.Practices.Prism.Mvvm.dll">
+      <PackagePath>Microsoft.Practices.Prism.Mvvm.dll</PackagePath>
+      <Modified>2015-01-03T19:15:20.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\packages\Prism.Mvvm.1.1.1\lib\windows8\Microsoft.Practices.Prism.Mvvm.Store.dll">
+      <PackagePath>Microsoft.Practices.Prism.Mvvm.Store.dll</PackagePath>
+      <Modified>2015-01-03T19:15:20.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\packages\Prism.Mvvm.1.1.1\lib\windows8\Microsoft.Practices.Prism.SharedInterfaces.dll">
+      <PackagePath>Microsoft.Practices.Prism.SharedInterfaces.dll</PackagePath>
+      <Modified>2015-01-03T19:15:20.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\packages\Prism.StoreApps.2.0.0\lib\windows8\Microsoft.Practices.Prism.StoreApps.dll">
+      <PackagePath>Microsoft.Practices.Prism.StoreApps.dll</PackagePath>
+      <Modified>2015-01-03T19:15:20.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\packages\Prism.StoreApps.2.0.0\lib\windows8\Microsoft.Practices.Prism.StoreApps.Windows.dll">
+      <PackagePath>Microsoft.Practices.Prism.StoreApps.Windows.dll</PackagePath>
+      <Modified>2015-01-03T19:15:20.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.8.8\Redist\Retail\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2015-01-19T22:40:29.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\Assets\BackGround\back.jpg">
+      <PackagePath>Assets\BackGround\back.jpg</PackagePath>
+      <Modified>2015-01-19T22:45:54.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-01-08T00:29:28.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-01-08T02:03:16.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-01-08T03:42:01.646</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-01-08T02:03:57.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\Assets\Tutorials\tut1.png">
+      <PackagePath>Assets\Tutorials\tut1.png</PackagePath>
+      <Modified>2015-01-15T06:16:15.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\x86\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-01-06T06:33:34.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\x86\Release\Pages\AddStudentData.xbf">
+      <PackagePath>Pages\AddStudentData.xbf</PackagePath>
+      <Modified>2015-01-20T04:15:00.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\x86\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-01-20T04:15:15.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\x86\Release\Pages\AddSubjectDetails.xbf">
+      <PackagePath>Pages\AddSubjectDetails.xbf</PackagePath>
+      <Modified>2015-01-20T04:15:00.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\x86\Release\Pages\EditCourseDetails.xbf">
+      <PackagePath>Pages\EditCourseDetails.xbf</PackagePath>
+      <Modified>2015-01-20T04:15:00.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\x86\Release\Pages\Langing2.xbf">
+      <PackagePath>Pages\Langing2.xbf</PackagePath>
+      <Modified>2015-01-19T22:26:31.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\x86\Release\Pages\Tutorial.xbf">
+      <PackagePath>Pages\Tutorial.xbf</PackagePath>
+      <Modified>2015-01-20T04:15:00.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\x86\Release\AttendancePrototype1.Windows.xr.xml">
+      <PackagePath>AttendancePrototype1.Windows.xr.xml</PackagePath>
+      <Modified>2015-01-20T04:08:28.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\x86\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-01-20T04:15:16.348</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DIREWOLF7</Machine>
+    <WindowsUser>thedirewolf7</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>91969568-0bf5-4c01-af91-9f6242108aeb</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>3650C854C061B92ACC1CCCA1236DC8A1A497DAF20100967F4F47E7B4F49B2CA3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>91969568-0bf5-4c01-af91-9f6242108aeb_1.0.0.0_neutral__570cma427kg6r</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>91969568-0bf5-4c01-af91-9f6242108aeb_570cma427kg6r!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>91969568-0bf5-4c01-af91-9f6242108aeb</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Pranav Sharma</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-12-25T01:44:38.078</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\Debug\AttendancePrototype1.Windows.exe">
+      <PackagePath>AttendancePrototype1.Windows.exe</PackagePath>
+      <Modified>2014-12-25T01:55:40.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-08T02:15:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-08T02:15:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-08T02:15:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-08T02:15:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-12-21T22:16:35.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\Debug\CourseDetails.xbf">
+      <PackagePath>CourseDetails.xbf</PackagePath>
+      <Modified>2014-12-24T03:51:02.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\Debug\DisplayStudentData.xbf">
+      <PackagePath>DisplayStudentData.xbf</PackagePath>
+      <Modified>2014-12-24T02:37:53.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\Debug\EnterStudentDetails.xbf">
+      <PackagePath>EnterStudentDetails.xbf</PackagePath>
+      <Modified>2014-12-24T03:51:02.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-12-24T02:37:53.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\Debug\AttendancePrototype1.Windows.xr.xml">
+      <PackagePath>AttendancePrototype1.Windows.xr.xml</PackagePath>
+      <Modified>2014-12-24T03:51:02.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thedirewolf7\Documents\Visual Studio 2013\Projects\AttendancePrototype1\AttendancePrototype1\AttendancePrototype1.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-12-25T01:44:37.672</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

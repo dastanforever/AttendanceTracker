@@ -1,0 +1,69 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="AttendancePrototype1.AddStudentData"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AttendancePrototype1"
+    xmlns:common="using:AttendancePrototype1.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Attendance Prototype</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Name="ParentGrid">
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="../Assets/BackGround/back.jpg" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+                
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
+        </Grid>
+        <StackPanel HorizontalAlignment="Center" Height="500" Margin="36,91,751,37" Grid.Row="1" VerticalAlignment="Center" Width="211">
+            <TextBlock TextWrapping="Wrap" Text="Your Name" HorizontalAlignment="Left" FontFamily="Segoe UI Light" FontSize="21.333" Margin="0,12,0,0"/>
+            <TextBlock TextWrapping="Wrap" Text="Age" HorizontalAlignment="Left" FontSize="21.333" Margin="0,73,0,0"/>
+            <TextBlock TextWrapping="Wrap" Text="School/College" HorizontalAlignment="Left" FontSize="21.333" Margin="0,73,0,0"/>
+            <TextBlock TextWrapping="Wrap" Text="Year In School" HorizontalAlignment="Left" FontSize="21.333" Margin="0,71,0,0"/>
+            <TextBlock TextWrapping="Wrap" Text="Number Of Subjects" HorizontalAlignment="Left" FontSize="21.333" Margin="0,65,0,0" VerticalAlignment="Center"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Right" Height="500" Margin="0,91,251,37" Grid.Row="1" VerticalAlignment="Center" Width="200">
+            <TextBox x:Name="name" Margin="0,8,0,0" TextChanged="name_TextChanged" />
+            <TextBox x:Name="age" Margin="0,63,0,0" />
+            <TextBox x:Name="school" Margin="0,73,0,0" />
+            <TextBox x:Name="year" Margin="0,64,0,0" />
+            <TextBox x:Name="numsub" Margin="0,57,0,0" />
+        </StackPanel>
+        <Button Content="Continue" HorizontalAlignment="Center" Margin="0,570,0,0" Grid.Row="1" VerticalAlignment="Center" Click="Button_Click"/>
+    </Grid>
+</Page>
